@@ -15,5 +15,4 @@ public class reversalOfSentence {
 		}
 		System.out.println(result.trim());
 	}
-
 }

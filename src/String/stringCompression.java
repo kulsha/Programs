@@ -6,7 +6,6 @@ public class stringCompression {
 	{
 		
 		String s = "aaaaaabbbccddddrrrrrtt";
-		
 		for(int i = 0 ; i<s.length(); i++)
 		{
 			int count=1;

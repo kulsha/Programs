@@ -5,7 +5,7 @@ public class DuplicateArrayElements {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String strArray[] = {"shashank" , "abcd" , "qwert" , "asdasfc" , "shashank" , "asd" , "asdf" , "singh" };
+		String strArray[] = {"shashank" , "abcd" , "qwert" , "asdasfc" , "shashank" , "asd" , "asdf" , "kulkarni" };
 		String temp;
 		
 		for(int i = 0 ; i <strArray.length-1 ; i++)

@@ -4,7 +4,7 @@ public class StringPalindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str = "Hello";
+		String str = "gadag";
 		String rev = "";
 		
 		char ch[] = str.toCharArray();

@@ -19,10 +19,8 @@ public class RemoveDuplicateAndPrintRestElements {
 				{
 					arr[j] = arr[i];
 					j++;
-				}
-				
+				}	
 		}
-		
 		arr[j++] = arr[len-1];
 	
 		for(int k = 0 ; k<j ; k++)

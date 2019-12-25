@@ -6,11 +6,11 @@ public class wordCountInAString {
 		// TODO Auto-generated method stub
 
 		 int word=1;
-	      String str="My favourite football club is Barcelona";
-	      System.out.println(str.length());
-	      for(int i=0;i<str.length();i++)
+	      String s="My favourite football club is Barcelona";
+	      System.out.println(s.length());
+	      for(int i=0;i<s.length();i++)
 	      {
-	         if(str.charAt(i)==' ')
+	         if(s.charAt(i)==' ')
 	            word++;
 	      }
 	   

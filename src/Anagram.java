@@ -32,7 +32,7 @@ public class Anagram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		anagram("shashank" , "Shan n kSHA");
+		anagram("shashank" , "shanksha");
 		
 	}
 

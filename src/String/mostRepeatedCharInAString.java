@@ -1,10 +1,10 @@
 package String;
 
 public class mostRepeatedCharInAString {
-
+											// Most repeated character  
 	public static void main(String[] args)
 	{
-		String s = "apple";
+		String s = "ababbc";
 		char[] c = s.toCharArray();
 		int count;
 		int maxCount=0;

@@ -15,7 +15,8 @@ public class noOfSquaresInAGrid_noOfSquaresinChessBoard {
 	
 	public static void main(String[] args)
 	{
-			countSquares(3);
+			countSquares(8);
+			countSquares(4);
 	}
 
 }

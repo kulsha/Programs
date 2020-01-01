@@ -6,7 +6,6 @@ public class RemoveDuplicateAndPrintRestElements {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		
 		int arr[] = {2,1,2,3,6,8,6,4,5,7,4,3};
 		int len = arr.length;

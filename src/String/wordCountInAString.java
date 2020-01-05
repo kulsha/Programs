@@ -7,10 +7,12 @@ public class wordCountInAString {
 
 		 int word=1;
 	      String s="My favourite football club is Barcelona";
+	      char[] ch = s.toCharArray();
 	      System.out.println(s.length());
+	      
 	      for(int i=0;i<s.length();i++)
 	      {
-	         if(s.charAt(i)==' ')
+	         if(ch[i]==' ')
 	            word++;
 	      }
 	   

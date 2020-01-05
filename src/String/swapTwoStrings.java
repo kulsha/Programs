@@ -10,7 +10,7 @@ public class swapTwoStrings {
 		System.out.println("Before Swap a = "+ a + " And B = " +b);
 		a=a+" "+b;
 		
-		String [] s=a.split(" ");
+		String[] s=a.split(" ");
 		System.out.println("After swap a = "+s[1] + " And B= "+ s[0]);
 	}
 

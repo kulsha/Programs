@@ -4,22 +4,25 @@ public class RightShiftArray {
 
 	public static void main(String[] args) {
 		
-		int[] num= {10,2,34,7};
-		int last=num[3];
-		int i ;
+		int[] num= {1,2,3,4,5,6,7};
+		int n=4;
+		int temp;
 		
-		for(i=num.length-1 ; i>0 ; i--)
+		for(int i=0 ; i<n ; i++)
 		{
-			num[i]=num[i-1];
+			temp=num[num.length-1];
+			for(int j=num.length-1 ; j>0 ; j--)
+			{
+				num[j]=num[j-1];
+			}
+			num[0]=temp;
 		}
-		num[i]=last;
 		
-		for(int j=0;j<num.length;j++)
+		for(int k=0 ; k<num.length ; k++)
 		{
-			System.out.print(" "+num[j]+" ");
+			System.out.print(" "+num[k]);
 		}
 		
-
 	}
 
 }

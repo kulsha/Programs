@@ -4,21 +4,25 @@ public class leftShiftArray {
 
 	public static void main(String[] args) 
 	{
-		int[] num = {1,2,3,4,5};
-		int first = num[0];
-		int i ; 
+		int[] num = {1,2,3,4,5,6,7};
+		int n=4;
+		int temp;
 		
-		for(i = 0 ; i<num.length-1 ; i++)
+		for(int i=0 ; i<n ; i++)
 		{
-			num[i] = num[i+1];
-			//System.out.print(num[i]);
+			temp=num[0];
+			for(int j=0 ; j<num.length-1 ; j++)
+			{
+				num[j]=num[j+1];
+			}
+			num[num.length-1]=temp;
 		}
 		
-		num[i]=first;
-		for(int j = 0 ; j<num.length ; j++)
+		for(int k=0 ; k<num.length ; k++)
 		{
-		System.out.print(" " +num[j]);
+			System.out.print(" "+num[k]);
 		}
+		
 	}
 
 }

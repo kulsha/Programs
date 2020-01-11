@@ -12,18 +12,17 @@ public class addTwoArrays1D {
 		for(int i = 0 ; i<=a.length-1 ; i++)
 		{
 			sum[i]=0;
-		if(b.length > i)
-		{
-			sum[i] = a[i]+b[i];
-			System.out.print(" " +sum[i]); 
+			if(b.length > i)
+				{
+					sum[i] = a[i]+b[i];
+					System.out.print(" " +sum[i]); 
 			
-		}
-		else
-		{
-			sum[i] = a[i] + 0;
-			System.out.print(" " + sum[i]);
-		}
-		
+				}
+			else
+				{
+					sum[i] = a[i] + 0;
+					System.out.print(" " + sum[i]);
+				}
 		
 		}
 	}

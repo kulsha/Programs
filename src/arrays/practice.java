@@ -1,23 +1,28 @@
 package arrays;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class practice 
 {
 	
 	public static void main(String[] args)
 	{
-		int[] a = {4,3,5,8,7,1,2};
-		int[] b = {4,7,2};			
+		String s1= "aaaaabbbbbbbcccdddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee";
+		int count;
 		
-		for(int i = 0; i<a.length ; i++)
+		for(int i=0 ; i<s1.length() ; i++)
 		{
-			for(int j=0 ;j<b.length ; j++ )
+			count=1;
+			while(i<s1.length()-1 && s1.charAt(i)==s1.charAt(i+1))
 			{
-				if(a[i]==b[j])
-				{
-					System.out.print(" " +a[i]);
-				}
+				count++;
+				i++;
 			}
+			System.out.print(s1.charAt(i));
+			System.out.print(count);
 		}
+		
 		
 	}
 }

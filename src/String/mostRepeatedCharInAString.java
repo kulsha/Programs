@@ -9,6 +9,7 @@ public class mostRepeatedCharInAString {
 		int count;
 		int maxCount=0;
 		char k= ' ';
+		
 		for(int i = 0 ; i<c.length -1 ; i++)
 		{
 			count=0;

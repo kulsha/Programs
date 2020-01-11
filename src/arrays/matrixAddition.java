@@ -4,16 +4,14 @@ import java.util.Scanner;
 
 public class matrixAddition {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
+	public static void main(String[] args) 
+	{
 		int m, n, c, d;
-	    Scanner in = new Scanner(System.in);
+	    Scanner s = new Scanner(System.in);
 
 	    System.out.println("Enter the number of rows and columns of matrix");
-	    m = in.nextInt();
-	    n = in.nextInt();
+	    m = s.nextInt();
+	    n = s.nextInt();
 
 	    int first[][] = new int[m][n];
 	    int second[][] = new int[m][n];
@@ -25,7 +23,7 @@ public class matrixAddition {
 	    {
 	      for (d = 0; d < n; d++)
 	      {
-	        first[c][d] = in.nextInt();
+	        first[c][d] = s.nextInt();
 	      }
 	    }
 	    
@@ -33,8 +31,9 @@ public class matrixAddition {
 
 	    for (c = 0 ; c < m; c++)
 	      for (d = 0 ; d < n; d++)
-	        second[c][d] = in.nextInt();
-
+	        second[c][d] = s.nextInt();
+	    
+	    // sum
 	    for (c = 0; c < m; c++)
 	      for (d = 0; d < n; d++)
 	        sum[c][d] = first[c][d] + second[c][d];  //replace '+' with '-' to subtract matrices

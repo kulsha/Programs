@@ -11,8 +11,8 @@ public class CapitalizeFirstLetter {
 		for(String w :split)
 		{
 			String first = w.substring(0, 1);
-			String afterFurst = w.substring(1);
-			capitalized+= first.toUpperCase() + afterFurst+" ";
+			String afterFirst = w.substring(1);
+			capitalized+= first.toUpperCase() + afterFirst+" ";
 					
 		}
 				System.out.println(capitalized);

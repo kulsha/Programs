@@ -16,8 +16,8 @@ public class RemoveDuplicateAndPrintRestElements {
 		{
 				if(arr[i] != arr[i+1])
 				{
-					arr[j] = arr[i];
-					j++;
+					arr[j++] = arr[i];
+					
 				}	
 		}
 		arr[j++] = arr[len-1];

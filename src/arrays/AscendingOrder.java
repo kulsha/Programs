@@ -4,11 +4,9 @@ public class AscendingOrder {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		
+	
 		 // acsending order 112 , 50 , 98 , 45 , 85
-		   
-		   
+		      
 		   int num[] = {37 , 25 , 30 , 65 , 5 , 50 , 14};
 		   int temp;
 		   for(int i = 0 ; i<num.length ; i++)

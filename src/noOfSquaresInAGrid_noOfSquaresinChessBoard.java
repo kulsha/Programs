@@ -17,6 +17,7 @@ public class noOfSquaresInAGrid_noOfSquaresinChessBoard {
 	{
 			countSquares(8);
 			countSquares(4);
+			countSquares(3);
 	}
 
 }

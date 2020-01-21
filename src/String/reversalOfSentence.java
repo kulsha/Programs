@@ -15,7 +15,7 @@ public class reversalOfSentence {
 		
 		for(int i = split.length -1 ; i>=0 ; i--)
 		{
-			reverse += (split[i]+ " ");
+			reverse += split[i]+ " ";
 		}
 		System.out.println(reverse);
 		

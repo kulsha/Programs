@@ -5,7 +5,7 @@ public class OneStringIsRotationOfAnother {
 	public static void main(String[] args) {
 		
 		String s1 = "ILoveHer";
-		String s2 = "LoveIHer";
+		String s2 = "LoveHerI";
 		
 		if(s1.length()!=s2.length())
 		{

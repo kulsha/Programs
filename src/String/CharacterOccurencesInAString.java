@@ -5,7 +5,6 @@ public class CharacterOccurencesInAString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 											// Program to count character occurrences and remove the duplicate chars
-		
 		String s = "shashank";
 		char ch[] = s.toCharArray();
 		int count ; 

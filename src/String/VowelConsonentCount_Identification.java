@@ -9,6 +9,7 @@ public class VowelConsonentCount_Identification {
 		String s = str.toLowerCase();
 		char[] c = s.toCharArray();
 		int vowel =0 , consonant = 0;
+		
 		for (char k : c)
 		{
 			if(k=='a' || k=='e' || k=='i' || k=='o' ||k=='u')
@@ -30,7 +31,7 @@ public class VowelConsonentCount_Identification {
 				
 		for(int i = 0 ; i<S1.length(); i++)
 		{
-			if(S1.charAt(i) >= 65 && S1.charAt(i)<=95)
+			if(S1.charAt(i) >= 'A' && S1.charAt(i)<='Z')
 			{
 				System.out.print(S1.charAt(i) + " ");
 				Ucount++;

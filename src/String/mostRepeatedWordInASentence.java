@@ -2,7 +2,7 @@ package String;
 
 public class mostRepeatedWordInASentence {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {			// Most repeated word
 		
 		String s = "Shashank tree shashank tree shashank is";
 		String[] split = s.split(" ");

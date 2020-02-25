@@ -10,7 +10,6 @@ public class OneStringIsRotationOfAnother {
 		if(s1.length()!=s2.length())
 		{
 			System.out.println("s2 is not rotated version of s1");
-			
 		}
 		else
 		{

@@ -10,7 +10,7 @@ public class findingCharactersInAString {
 		for(int i = 0; i <s.length() ; i++)
 		{
 			if(Character.isAlphabetic(s.charAt(i)))
-				res=res+s.charAt(i);
+				res+= s.charAt(i);
 		}
 	System.out.println(res);
 

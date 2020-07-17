@@ -18,6 +18,11 @@ public class swapTwoStrings {
 		s1=s1.substring(s2.length());
 		System.out.println("String s1 = "+s1);
 		
+		
+
+		
+		
+		
 /*		
 		String a="Shashank";
 		String b="Kulkarni";

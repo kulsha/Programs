@@ -21,9 +21,10 @@ public class frequencyOfAnElementInArray {
 			}
 			if(num[i]!=' ')
 			{
-				//System.out.println(num[i]);
-				System.out.println("Number of occurences of " + num[i] + " is " +count);
+				System.out.println(num[i]);
+				//System.out.println("Number of occurences of " + num[i] + " is " +count);
 			}
+			
 		}
 		
 	}

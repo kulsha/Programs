@@ -32,7 +32,6 @@ public class ReverseAString_PreservePosition {
 			
 		}
 
-		
 		for(int k=0 ; k<result.length ; k++)
 		{
 			System.out.print(" "+result[k]);

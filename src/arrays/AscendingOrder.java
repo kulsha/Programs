@@ -27,7 +27,7 @@ public class AscendingOrder {
 			   System.out.print(" "+k+" ");
 		   } 
 		   System.out.println();
-		   System.out.println(" Second Largest number is " +num[1]);
+		   System.out.println(" Second Largest number is " +num[num.length-2]);
 		   System.out.println(" Third Largest number is " +num[2]);
 	   }
 		

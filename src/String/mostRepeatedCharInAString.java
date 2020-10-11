@@ -4,7 +4,7 @@ public class mostRepeatedCharInAString {
 											// Most repeated character  
 	public static void main(String[] args)
 	{
-		String s = "ababbc";
+		String s = "shashank"; // "ababbc";
 		char[] c = s.toCharArray();
 		int count;
 		int maxCount=0;

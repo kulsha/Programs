@@ -23,7 +23,7 @@ public class secondHighestInArray {
 		}
 		
 		System.out.println("First max number " +highest);
-		System.out.println("First max number " +second_highest);
+		System.out.println("Second highest " +second_highest);
 	}
 
 }
